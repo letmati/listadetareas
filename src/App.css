@@ -1,0 +1,118 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header-titulo {
+  text-shadow: 0px 0px 24px black;
+  font-size: 3rem;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.main-input {
+  border: none;
+  border-radius: 1rem 0rem;
+  width: 60%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  box-shadow: -3px 6px 14px 0px #00000061;
+}
+
+.main-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  background-color: #737373;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 3rem;
+  font-size: 3rem;
+  box-shadow: -3px 6px 14px 0px #00000061;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 54vh;
+  width: 90vw;
+  margin: auto;
+  background: #888888a3;
+  box-shadow: -3px 6px 14px 0px #00000061;
+  border-radius: 10px;
+}
+
+.contenido-tarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  padding: 2rem; 
+  border-bottom: solid 1px;
+}
+
+.contenido-tarea-texto {
+  width: 60%;
+}
+
+.contenido-boton-completo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19%;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: #3e88a1;
+  border: none;
+  color: white;
+}
+
+.contenido-boton-borrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19%;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: rgb(181 42 42);
+  border: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.footer-img {
+  width: 2rem;
+  color: white;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 4vh;
+}
