@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/listadetareas/static/css/main.b74a62a5.css",
+    "main.js": "/listadetareas/static/js/main.fdea0dff.js",
+    "static/media/git.png": "/listadetareas/static/media/git.987334e9f782cc505f25.png",
+    "index.html": "/listadetareas/index.html",
+    "main.b74a62a5.css.map": "/listadetareas/static/css/main.b74a62a5.css.map",
+    "main.fdea0dff.js.map": "/listadetareas/static/js/main.fdea0dff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b74a62a5.css",
+    "static/js/main.fdea0dff.js"
+  ]
+}
